@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="327.0" prefWidth="553.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="24.0" layoutY="14.0" text="Lo scopo di questo progetto è di visualizzare l'evoluzione di un gruppo di cacciatori.&#10;Ogni cacciatore (ROSSO) si sveglia la mattina e va alla ricerca di cibo (VERDE) per sopravvivere&#10;fino alla giornata seguente. &#10;&#10;Ogni cacciatore ha due statistiche:&#10;Movimento --&gt; Quante caselle può muoversi il cacciatore prima che finisca il fiato e svenga&#10;Vista --&gt; A quante caselle di distanza il cacciatore riesce a vedere.&#10;&#10;Tutti i cacciatori si muovono automaticamente verso il cibo se è nel loro campo di vista.&#10;Se non c'è cibo intorno a loro si muovono in maniera casuale cercandolo.&#10;&#10;Se i cacciatori non riescono a tornare a casa (ovvero nell'anello più esterno)&#10;prima di finire il loro movimento, allora non sopravviveranno fino alla giornata seguente.&#10;&#10;Se i cacciatori non trovano abbastanza cibo da nutrirsi, allora non potranno tornare a casa.&#10;&#10;Una volta tornati a casa i cacciatori si riprodurranno per il giorno successivo" />
+   </children>
+</AnchorPane>

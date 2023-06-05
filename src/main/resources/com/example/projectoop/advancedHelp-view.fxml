@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="239.0" prefWidth="435.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="I cacciatori necessitano di cibo in proporzione&#10;alle loro statistiche, secondo la seguente equazione:&#10;cibo necessario = (movimento/10 + vista/3)/2&#10;&#10;Il cibo non può apparire nei primi 3 anelli dall'esterno&#10;&#10;La riproduzione dei cacciatori avviene soltanto se durante il giorno&#10;sono riusciti a recuperare abbastanza cibo per nutrirsi più il costo di riproduzione.&#10;Se riescono a riprodursi il figlio nascerà nelle immediate vicinanze dal padre&#10;&#10;Se tutti i cacciatori muoiono la simulazione arriva al termine&#10;ed è necessario reimpostare i dati come preferiti" />
+   </children>
+</AnchorPane>
